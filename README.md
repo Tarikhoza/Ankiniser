@@ -1,5 +1,5 @@
 # Ankiniser
-A Python script to convert your favorite TV series into an Anki deck.
+A Python3 script to convert your favorite TV series into an Anki deck.
 # How to install?
 Download the script with git or download it manualy.
 git clone https://github.com/Tarikhoza/Ankiniser
@@ -8,7 +8,7 @@ Install them with the following command in the root of project:
 pip install -r requirements.txt
 # How to run it?
 You run the script with the command:
-python Ankiniser.py all {VideoFilePath} {Subtitle file path} {Name of the deck}
+$ python Ankiniser.py all {VideoFilePath} {Subtitle file path} {Name of the deck}
 Before you run this script please check if the subtitles fit the video you are trying to convert.
 
 After the script has finished you have to copy the clips into the media.collection folder of your Anki user.
