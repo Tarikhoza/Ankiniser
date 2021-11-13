@@ -1,0 +1,4 @@
+beautifulsoup4==4.10.0
+genanki==0.11.0
+moviepy==1.0.3
+requests==2.25.1
