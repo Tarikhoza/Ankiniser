@@ -11,7 +11,7 @@ pip install -r requirements.txt
 ## How to run it?
 You run the script with the command:
 
-python Ankiniser.py all {VideoFilePath} {Subtitle file path} {Name of the deck}
+python Ankiniser.py all {VideoFilePath} {SubtitleFilePath} {NameOfTheDeck}
 
 Before you run this script please check if the subtitles fit the video you are trying to convert.
 
