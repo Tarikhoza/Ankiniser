@@ -7,7 +7,9 @@ git clone https://github.com/Tarikhoza/Ankiniser
 
 After downloading the script you have to install the requirements.
 Install them with the following command in the root of project:
+
 pip install -r requirements.txt
+
 ## How to run it?
 You run the script with the command:
 
