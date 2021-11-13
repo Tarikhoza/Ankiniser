@@ -19,5 +19,5 @@ Before you run this script please check if the subtitles fit the video you are t
 
 After the script has finished you have to copy the clips into the media.collection folder of your Anki user.
 
-For now this program works only for japanese series, but it wont be that to implement it for other languages.
+For now this script works only for japanese series, but it wont be that to implement it for other languages.
 For this you would only have to change the langAPI.py file.
