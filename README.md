@@ -6,7 +6,7 @@ git clone https://github.com/Tarikhoza/Ankiniser
 After downloading the script you have to install the requirements.
 Install them with the following command in the root of project:
 pip install -r requirements.txt
-#How to run it?
+# How to run it?
 You run the script with the command:
 python Ankiniser.py all {VideoFilePath} {Subtitle file path} {Name of the deck}
 Before you run this script please check if the subtitles fit the video you are trying to convert.
