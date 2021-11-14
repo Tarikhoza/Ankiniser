@@ -69,5 +69,3 @@ def generateDeck(primarySubs,name,code):
     my_package.media_files =map(lambda x: os.path.join("clips",x),os.listdir("clips"))
     my_package.write_to_file(f'{name}.apkg')
     print(f"Generating deck finished.\nDeck saved in {name}.apkg")
-
-#GenerateDeck("01.jap.srt","Death Note","123311123")
