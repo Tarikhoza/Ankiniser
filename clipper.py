@@ -1,10 +1,9 @@
 from moviepy.editor import *
-import typing
 import os
 import shutil
 
 #convert time to seconds
-def toSec(time:str)->float:
+def toSec(time):
     #00:00:01,290  hours:minutes:seconds
     time=time.replace(",",".").replace(" ","")
     hours,mins,sec=time.split(":")
@@ -19,7 +18,7 @@ def toSec(time:str)->float:
     return sec
 
 
-def clip(video:str,times:list[tuple[int,int]])->None:
+def clip(video,times):
     if("clips" in os.listdir()):
         shutil.rmtree("clips")
         print("Removed old clips")
@@ -34,8 +33,8 @@ def clip(video:str,times:list[tuple[int,int]])->None:
     print("Clipping video finished!!!")
     print("Clips saved in clips folder")
 
-def clipSub(video:str,subs:dict)->None:
-    times:list[tuple[int,int]]=[]
+def clipSub(video,subs):
+    times=[]
     for i in subs:
         times.append((toSec(i["from"]),toSec(i["to"])))
     clip(video,times)
